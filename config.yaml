@@ -1,16 +1,16 @@
 baseURL: https://johnpurcell.netlify.app/
 languageCode: en-us
-title: Forty
+title: Portolio Website for John Purcell
 theme: forty
 googleAnalytics: ''
 disqusShortname: ''
 params:
   banner:
     buttonText: Get Started
-    subtitle: |-
-      A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
-      AND RELEASED UNDER THE CREATIVE COMMONS.
-    title: Hi, my name is Forty
+    subtitle: #-
+      #A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
+      #AND RELEASED UNDER THE CREATIVE COMMONS.
+    title: Hi, my name is John Purcell, I'm a Masters student in LBS
   blog: {}
   contact:
     address:
