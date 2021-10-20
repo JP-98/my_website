@@ -94,7 +94,7 @@ params:
         url: Portfolio/Options
       - image: ff.jpeg
         subtitle: Nothing New Here
-        title: Fama MacBeth Two Pass Regression: Have FF Factors Become Obsolete?
+        title: Fama MacBeth Two Pass Regression Have FF Factors Become Obsolete
         url: Portfolio/Fama-MacBeth
 
   two:
