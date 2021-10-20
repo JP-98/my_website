@@ -24,7 +24,7 @@ params:
         title: JP
     enable: yes
     phone:
-      - phone: (+353) 151-2513 x1234
+      - phone: (+353) 87-151-2513 x1234
         title: Mobile
   custom_css: []
   custom_js: []
@@ -50,7 +50,7 @@ params:
       - icon: fa-linkedin
         label: LinkedIn
         url: https://www.linkedin.com/in/john-purcell-6b611216b/
-  image: 'IMG-20190914-WA0001'
+  image: 'frm.jpg'
   name: John Purcell
   navigation:
     button1:
@@ -72,19 +72,19 @@ params:
   tiles:
     enable: yes
     showcase:
-      - image: Ifish.jpeg
+      - image: fish.jpg
         subtitle: Life and Learnings
         title: Introduction
         url: post/me
-      - image: Hike2.jpeg
+      - image: Hike2.jpg
         subtitle: The Isle of Saints and Scholars
         title: Ireland in Colour
         url: post/me
-      - image: italy.jpeg
+      - image: italy.jpg
         subtitle: Todo el Mundo
         title: Travel
         url: post/me
-      - image: flux.jpeg
+      - image: flux.jpg
         subtitle: Using Julia's Flux Package to Train a Neural Network Model
         title: Training a Stacked Ensemble of Supervised Models to Predict Stock Return Directions
         url: Portfolio/Julia
@@ -92,7 +92,7 @@ params:
         subtitle: Better than Shorting the Vix
         title: Exploiting Implied Volatility Overpricing using Options  
         url: Portfolio/Options
-      - image: ff.jpeg
+      - image: ff.jpg
         subtitle: Nothing New Here
         title: Fama MacBeth Two Pass Regression Have FF Factors Become Obsolete
         url: Portfolio/Fama-MacBeth
