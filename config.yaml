@@ -37,7 +37,7 @@ params:
     copyright: John Purcell
     enable: yes
     quicklinks:
-      - alt: HTML5 UP
+      - alt: '#'
         text: 'Design: '
         url: https://www.html5up.net
     social:
@@ -54,18 +54,15 @@ params:
   name: John Purcell
   navigation:
     button1:
-      - name: Get Started
-        url: blogs
-    button2:
-      - name: Log In
+      - name: Home
         url: '#'
     links:
       - name: Home
         url: '#'
       - name: Background
         url: post/me
-      - name: Portfolio
-        url: post/Portfolio
+      - name: Blogs
+        url: post/Blogs
     menu: Menu
     subtitle: By HTML5 Up
     title: Refresh
@@ -73,7 +70,7 @@ params:
     enable: yes
     showcase:
       - image: fish.jpg
-        subtitle: Life and Learnings
+        subtitle: Immature, Arrogant, but Undoubtedly Brilliant
         title: Introduction
         url: post/me
       - image: Hike2.jpg
@@ -87,15 +84,15 @@ params:
       - image: flux.jpg
         subtitle: Using Julia's Flux Package to Train a Neural Network Model
         title: Training a Stacked Ensemble of Supervised Models to Predict Stock Return Directions
-        url: Portfolio/Julia
+        url: Blogs/Julia
       - image: work.jpeg
         subtitle: Better than Shorting the Vix
-        title: Exploiting Implied Volatility Overpricing using Options  
-        url: Portfolio/Options
+        title: Exploiting Implied Volatility Deviations from Realised using Options  
+        url: Blogs/Options
       - image: ff.jpg
         subtitle: Nothing New Here
-        title: Fama MacBeth Two Pass Regression Have FF Factors Become Obsolete
-        url: Portfolio/Fama-MacBeth
+        title: Fama MacBeth Two Pass Regression (Have FF Factors Become Obsolete?)
+        url: Blogs/Fama-MacBeth
 
   two:
     buttonText: Get Started
