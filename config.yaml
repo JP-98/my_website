@@ -64,10 +64,8 @@ params:
         url: '#'
       - name: Background
         url: post/me
-      - name: '#'
-        url: '#'
-      - name: '#'
-        url: '#'
+      - name: Portfolio
+        url: post/Portfolio
     menu: Menu
     subtitle: By HTML5 Up
     title: Refresh
@@ -75,33 +73,30 @@ params:
     enable: yes
     showcase:
       - image: pic01.jpg
-        subtitle: '#'
+        subtitle: Life and Learnings
         title: Introduction
-        url: blogs/aliquam
+        url: post/me
       - image: pic02.jpg
-        subtitle: Portfolio
-        title: All things Coding 
-        url: blogs/tempus
-      - image: pic03.jpg
         subtitle: The Isle of Saints and Scholars
         title: Ireland in Colour
-        url: blogs/magna
-      - image: pic04.jpg
+        url: post/me
+      - image: pic03.jpg
         subtitle: Todo el Mundo
         title: Travel
-        url: blogs/ipsum
+        url: post/me
+      - image: pic04.jpg
+        subtitle: Using Julia's Flux Package to Train a Neural Network Model
+        title: Training a Stacked Ensemble of Supervised Models to Predict Stock Return Directions
+        url: Portfolio/Julia
       - image: pic05.jpg
         subtitle: Better than Shorting the Vix
         title: Exploiting Implied Volatility Overpricing using Options  
-        url: blogs/ipsum
+        url: Portfolio/Options
       - image: pic06.jpg
         subtitle: Nothing New Here
         title: Fama MacBeth Two Pass Regression: Have FF Factors Become Obsolete?
-        url: blogs/ipsum
-      - image: pic07.jpg
-        subtitle: Using Julia's Flux Package to Train a Neural Network Model
-        title: Training a Stacked Ensemble of Supervised Models to Predict Stock Return Directions
-        url: blogs/ipsum
+        url: Portfolio/Fama-MacBeth
+
   two:
     buttonText: Get Started
     enable: yes
