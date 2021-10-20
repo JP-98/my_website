@@ -8,7 +8,7 @@ params:
   banner:
     buttonText: Get Started
     subtitle: #-
-      Part time Farmer
+      Part time Farmer,
       Full time Charmer
     title: John Purcell
   blog: {}
@@ -70,33 +70,37 @@ params:
         url: '#'
     menu: Menu
     subtitle: By HTML5 Up
-    title: '#'
+    title: Refresh
   tiles:
     enable: yes
     showcase:
       - image: pic01.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Aliquam
+        subtitle: '#'
+        title: Introduction
         url: blogs/aliquam
       - image: pic02.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Tempus
+        subtitle: Portfolio
+        title: All things Coding 
         url: blogs/tempus
       - image: pic03.jpg
-        subtitle: Lorem Etiam Nullam
-        title: Magna
+        subtitle: The Isle of Saints and Scholars
+        title: Ireland in Colour
         url: blogs/magna
       - image: pic04.jpg
-        subtitle: Nisl Sed Aliquam
-        title: Ipsum
+        subtitle: Todo el Mundo
+        title: Travel
         url: blogs/ipsum
       - image: pic05.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Consequat
+        subtitle: Better than Shorting the Vix
+        title: Exploiting Implied Volatility Overpricing using Options  
         url: blogs/ipsum
       - image: pic06.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Etiam
+        subtitle: Nothing New Here
+        title: Fama MacBeth Two Pass Regression: Have FF Factors Become Obsolete?
+        url: blogs/ipsum
+      - image: pic07.jpg
+        subtitle: Using Julia's Flux Package to Train a Neural Network Model
+        title: Training a Stacked Ensemble of Supervised Models to Predict Stock Return Directions
         url: blogs/ipsum
   two:
     buttonText: Get Started
