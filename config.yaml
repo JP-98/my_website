@@ -72,27 +72,27 @@ params:
   tiles:
     enable: yes
     showcase:
-      - image: pic01.jpg
+      - image: IMG-20190525-WA0001.jpeg
         subtitle: Life and Learnings
         title: Introduction
         url: post/me
-      - image: pic02.jpg
+      - image: Hike2.jpeg
         subtitle: The Isle of Saints and Scholars
         title: Ireland in Colour
         url: post/me
-      - image: pic03.jpg
+      - image: 20200729_223317.jpeg
         subtitle: Todo el Mundo
         title: Travel
         url: post/me
-      - image: pic04.jpg
+      - image: flux.jpeg
         subtitle: Using Julia's Flux Package to Train a Neural Network Model
         title: Training a Stacked Ensemble of Supervised Models to Predict Stock Return Directions
         url: Portfolio/Julia
-      - image: pic05.jpg
+      - image: IMG-20210915-WA0002.jpeg
         subtitle: Better than Shorting the Vix
         title: Exploiting Implied Volatility Overpricing using Options  
         url: Portfolio/Options
-      - image: pic06.jpg
+      - image: ff.jpeg
         subtitle: Nothing New Here
         title: Fama MacBeth Two Pass Regression: Have FF Factors Become Obsolete?
         url: Portfolio/Fama-MacBeth
