@@ -72,7 +72,7 @@ params:
   tiles:
     enable: yes
     showcase:
-      - image: IMG-20190525-WA0001.jpeg
+      - image: Ifish.jpeg
         subtitle: Life and Learnings
         title: Introduction
         url: post/me
@@ -80,7 +80,7 @@ params:
         subtitle: The Isle of Saints and Scholars
         title: Ireland in Colour
         url: post/me
-      - image: 20200729_223317.jpeg
+      - image: italy.jpeg
         subtitle: Todo el Mundo
         title: Travel
         url: post/me
@@ -88,7 +88,7 @@ params:
         subtitle: Using Julia's Flux Package to Train a Neural Network Model
         title: Training a Stacked Ensemble of Supervised Models to Predict Stock Return Directions
         url: Portfolio/Julia
-      - image: IMG-20210915-WA0002.jpeg
+      - image: work.jpeg
         subtitle: Better than Shorting the Vix
         title: Exploiting Implied Volatility Overpricing using Options  
         url: Portfolio/Options
