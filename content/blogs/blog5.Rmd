@@ -1,0 +1,19 @@
+---
+categories:  
+- ""    
+- ""
+date: "2021-10-21"
+description: Background 
+draft: false
+image: travel9.jpg 
+
+keywords: ""
+slug: CV
+title: John Purcell
+---
+
+Please see below my CV.
+
+```{r,echo=FALSE}
+knitr::include_graphics("/img/JohnPurcell_resume.jpg",error =FALSE)
+```

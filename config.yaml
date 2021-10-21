@@ -90,13 +90,13 @@ params:
         title: Exploiting Implied Volatility Deviations from Realised using Options  
         url: Blogs/Options
       - image: ff.jpg
-        subtitle: Nothing New Here
-        title: Fama MacBeth Two Pass Regression (Have FF Factors Become Obsolete?)
-        url: Blogs/Fama-MacBeth
+        subtitle: 
+        title: Curriculum Vitae
+        url: Blogs/CV
 
   two:
     buttonText: Get Started
     enable: yes
-    subtitle: "Necessity is the mother of invention, while curiosity is her grandmother"
+    subtitle: "Faigheann cos ar siúl rud nach bhfaigheann cos ina cónaí"
     title: Immerse Yourself
     url: blogs
