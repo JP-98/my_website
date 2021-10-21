@@ -11,6 +11,7 @@ slug: Ireland
 title: John Purcell
 ---
 
+# Éire
 
 Those of you who haven't had the fortune of gracing the island of Ireland with your presence, I present below the best two dimensional representation of Ireland that I have to offer. Enjoy!
 
@@ -29,5 +30,4 @@ knitr::include_graphics("/img/IRELAND5.jpg",error =FALSE)
 knitr::include_graphics("/img/IRELAND6.jpg",error =FALSE)
 knitr::include_graphics("/img/IRELAND7.jpg",error =FALSE)
 knitr::include_graphics("/img/IRELAND8.jpg",error =FALSE)
-knitr::include_graphics("/img/IRELAND9.jpg",error =FALSE)
 ```

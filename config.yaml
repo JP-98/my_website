@@ -17,12 +17,9 @@ params:
       - city: Cashel
         country: Ireland
         street: Ballinree
-    buttonClear: Clear
-    buttonSend: Send message
     email:
       - email: johndpurcell64@gmail.com
         title: Email
-    enable: yes
     phone:
       - phone: (+353) 87-151-2513 x1234
         title: Mobile
