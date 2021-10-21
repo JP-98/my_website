@@ -12,7 +12,7 @@ slug: CV
 title: John Purcell
 ---
 
-Please see below my CV.
+## Please see below my CV.
 
 ```{r,echo=FALSE}
 knitr::include_graphics("/img/JohnPurcell_resume.jpg",error =FALSE)

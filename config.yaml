@@ -61,8 +61,8 @@ params:
         url: '#'
       - name: Background
         url: post/me
-      - name: Blogs
-        url: post/Blogs
+      - name: blogs
+        url: post/blogs
     menu: Menu
     subtitle: By HTML5 Up
     title: Refresh
@@ -84,19 +84,19 @@ params:
       - image: flux.jpg
         subtitle: Using Julia's Flux Package to Train a Neural Network Model
         title: Training a Stacked Ensemble of Supervised Models to Predict Stock Return Directions
-        url: Blogs/Julia
+        url: blogs/Julia
       - image: work.jpeg
         subtitle: Better than Shorting the Vix
         title: Exploiting Implied Volatility Deviations from Realised using Options  
-        url: Blogs/Options
+        url: blogs/Options
       - image: ff.jpg
         subtitle: 
         title: Curriculum Vitae
-        url: Blogs/CV
+        url: blogs/CV
 
   two:
     buttonText: Get Started
     enable: yes
-    subtitle: "Faigheann cos ar siúl rud nach bhfaigheann cos ina cónaí"
-    title: Immerse Yourself
+    subtitle: "*** Faigheann cos ar siúl rud nach bhfaigheann cos ina cónaí ***"
+    title: Dive In
     url: blogs
