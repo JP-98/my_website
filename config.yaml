@@ -59,10 +59,10 @@ params:
     links:
       - name: Home
         url: '#'
+      - name: blogs
+        url: blogs
       - name: Background
         url: post/me
-      - name: Portfolio
-        url: blogs/
       - name: Resume
         url: blogs/CV
     menu: Menu
