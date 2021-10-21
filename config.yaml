@@ -60,7 +60,7 @@ params:
       - name: Home
         url: '#'
       - name: Background
-        url: post/me
+        url: post/me2
       - name: Blogs
         url: post/Blogs
     menu: Menu
@@ -72,7 +72,7 @@ params:
       - image: fish.jpg
         subtitle: Immature, Arrogant, but Undoubtedly Brilliant
         title: Introduction
-        url: post/me
+        url: post/me2
       - image: Hike2.jpg
         subtitle: The Isle of Saints and Scholars
         title: Ireland in Colour
