@@ -22,6 +22,7 @@ And live alone in the bee-loud glade."
 ```{r}
 knitr::include_graphics("/img/IRELAND1.jpg",error =FALSE)
 knitr::include_graphics("/img/iRELAND2.jpg",error =FALSE)
+knitr::include_graphics("/img/frmclass.jpg",error =FALSE)
 knitr::include_graphics("/img/IRELAND3.jpg",error =FALSE)
 knitr::include_graphics("/img/IRELAND4.jpg",error =FALSE)
 knitr::include_graphics("/img/IRELAND5.jpg",error =FALSE)
