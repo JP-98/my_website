@@ -1,0 +1,32 @@
+---
+categories:  
+- ""    
+- ""
+date: "2021-10-21"
+description: Background 
+draft: false
+image: frmclass.jpg 
+
+keywords: ""
+slug: Ireland
+title: John Purcell
+---
+
+Those of you who haven't had the fortune of gracing the island of Ireland with your presence, I present below the best two dimensional representation of Ireland that I have to offer. Enjoy!
+
+"I will arise and go now, and go to Innisfree, 
+And a small cabin build there, of clay and wattles made; 
+Nine bean-rows will I have there, a hive for the honey-bee, 
+And live alone in the bee-loud glade."
+
+```{r}
+knitr::include_graphics("/img/IRELAND1.jpg",error =FALSE)
+knitr::include_graphics("/img/iRELAND2.jpg",error =FALSE)
+knitr::include_graphics("/img/IRELAND3.jpg",error =FALSE)
+knitr::include_graphics("/img/IRELAND4.jpg",error =FALSE)
+knitr::include_graphics("/img/IRELAND5.jpg",error =FALSE)
+knitr::include_graphics("/img/IRELAND6.jpg",error =FALSE)
+knitr::include_graphics("/img/IRELAND7.jpg",error =FALSE)
+knitr::include_graphics("/img/IRELAND8.jpg",error =FALSE)
+knitr::include_graphics("/img/IRELAND9.jpg",error =FALSE)
+```

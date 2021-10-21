@@ -76,7 +76,7 @@ params:
       - image: Hike2.jpg
         subtitle: The Isle of Saints and Scholars
         title: Ireland in Colour
-        url: post/me
+        url: blogs/Ireland
       - image: italy.jpg
         subtitle: Todo el Mundo
         title: Travel
