@@ -1,0 +1,55 @@
+---
+categories:  
+- ""    
+- ""
+date: "2021-10-21"
+description: Background 
+draft: false
+image: travel7.jpg 
+
+keywords: ""
+slug: Options
+title: John Purcell
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>In this section, Colgate options are used to implement a short Delta-hedged straddle trading strategy on straddles executed monthly and settled CFD at month end. We aim to follow the direct approach taken in a PIMCO paper (<a href="https://www.pimco.com/handlers/displaydocument.ashx?wd=Insight&amp;id=j%2BVXaFRvp05MDLCUtE9OTSdz739HwNMGNUqUx3tJMDuTUgI2juEtJ4XHx3qXQDGLt3tJDquOGWMwSnRqe1Oi20C3mv3fyJk1tySH8HboRxIHYTc4pja3SwwCV%2F407E5RKUJ%2Fc9YuxenjzKGyisgZODh%2BdCDJe7Ng0iM7MET0lz94%2BvC6hnXiUnz4LIMpEF65BDsbR%2BVnWxtJO4n0hKZ8Z2Ej0XP18%2FpDuend5TUogytJGftvYkNs1hhqOG9ucC6eZbETXGE25qu%2BDGnyc7pYwRjMKHRTbLrrUzddN25am%2B4yr3NnjpNVfh1mP1hXlBfZU9DWjXjTiVdO3FFw80mpYQ%3D%3D" class="uri">https://www.pimco.com/handlers/displaydocument.ashx?wd=Insight&amp;id=j%2BVXaFRvp05MDLCUtE9OTSdz739HwNMGNUqUx3tJMDuTUgI2juEtJ4XHx3qXQDGLt3tJDquOGWMwSnRqe1Oi20C3mv3fyJk1tySH8HboRxIHYTc4pja3SwwCV%2F407E5RKUJ%2Fc9YuxenjzKGyisgZODh%2BdCDJe7Ng0iM7MET0lz94%2BvC6hnXiUnz4LIMpEF65BDsbR%2BVnWxtJO4n0hKZ8Z2Ej0XP18%2FpDuend5TUogytJGftvYkNs1hhqOG9ucC6eZbETXGE25qu%2BDGnyc7pYwRjMKHRTbLrrUzddN25am%2B4yr3NnjpNVfh1mP1hXlBfZU9DWjXjTiVdO3FFw80mpYQ%3D%3D</a>) to generate alpha due to implied volatility bing larger than relaised on average. A thorough investigation is included on the return distribution of this strategy. The relevant assumptions underpinning this approach, including transaction costs and return calculations, are outlined in detail in the methodology. Data was sourced from OptionMetrics.</p>
+</div>
+<div id="methodology" class="section level1">
+<h1>Methodology</h1>
+<p>It is important to note that given the insufficiency of the data in terms of missing option data for certain days, we initially assessed calculating the missing option price values using Black-
+Scholes; however, this overly distorted our daily returns figures given the narrow margins of returns, high volatility of returns and the high margin of error in estimating market option prices using this formula (especially when there exists a large spread). To avoid large estimation errors, we assessed the strategy on a monthly basis.</p>
+<p>We calculated the value of the change in our money market account and share position (from the hedging) at the end of each month independent of previous months. This allowed us to accurately assess the distribution of monthly returns from this strategy. We assumed a continuously compounded risk-free rate in our money market account. Given that this was a zero-investment strategy and that we had lots of missing option price data, percentage returns were infeasible, especially if wealth went below zero on a given day. We also tracked cumulative wealth throughout the period.</p>
+<p>We incorporated estimations of transaction costs on both buying and selling the options as well as on our daily Delta hedge rebalancing in order to make our results more accurate as a real-
+world trading strategy. We estimated transaction costs using formulae provided in the PIMCO paper. Our transaction costs on buying or selling a single option is represented by:</p>
+<p><span class="math inline">\(Option\ Transaction\ Cost = (\frac{1}{2})∗ν ∗ OptionTC_t ∗ max (0.5,\frac{\sigma_t^{implied}}{\sigma_{median}^{implied}})\)</span></p>
+<p>The first three terms above are said to approximate the bid-mid spread of the straddle in dollar
+terms. The last term captures the effect of increasing transactions costs during periods of high
+volatility, whilst not reducing them excessively when volatility is low. OptionTCt was
+assumed to be higher for Colgate options than for the S&amp;P500 given that they are assumed to be less liquid and not</p>
+<p>Our Delta hedge rebalancing transaction costs were calculated using the formula below:</p>
+<p><span class="math inline">\(Delta\ Transaction\ Costs = |Delta_t − Delta_{t−1}| ∗ Fwd_t ∗ DeltaTC_t* max (0.5,\frac{\sigma_t^{implied}}{\sigma_{median}^{implied}})\)</span></p>
+<p>whereby:</p>
+<ul>
+<li>Delta_t is our net Delta position on day t,</li>
+<li>Fwd_t is the forward price of the underlying on day t (i.e. fair forward value of current underlying price on expiry of option),</li>
+<li>DeltaTC_t is a constant which varies across markets</li>
+</ul>
+<p>We used a figure of two basis points for Colgate, as we would expect it to be more expensive than that of the S&amp;P500 for the same reasons as in the case of OptionTC_t.</p>
+<p>We initially tested the strategy of selling straddles which expire within the month and keeping
+our position until execution while rebalancing our Delta hedge daily, but this resulted in a
+slightly profitable strategy for Colgate and resulted in large losses on the index. This strategy
+clearly failed to capitalise on the volatility risk premium.</p>
+</div>
+<div id="conclusions" class="section level1">
+<h1>Conclusions</h1>
+<p>We illustrated that a trading strategy consisting of selling an equally weighted portfolio of at the money put and call options at month start and using Delta hedging throughout the month can take advantage of this premium. The S&amp;P 500 had a higher Volatility Risk Premium than that of Colgate. As expected, this resulted in a higher relative Sharpe ratio when the aforementioned Delta-hedging strategy was implemented. However, this strategy requires that implied volatility be greater than realised volatility. The trading strategy is less successful in times of market uncertainty where there are large risks of losses. Investing in this strategy, one would profit from a relatively low period of volatility where realised volatility is less than the volatility implied through the market price of the option.</p>
+</div>
+<div id="python-code-for-colgate-delta-hedged-straddles" class="section level1">
+<h1>Python Code for Colgate Delta-Hedged Straddles</h1>
+<p><img src="/img/1.jpg" /><!-- --><img src="/img/2.jpg" /><!-- --><img src="/img/3.jpg" /><!-- --><img src="/img/4.jpg" /><!-- --><img src="/img/5.jpg" /><!-- --><img src="/img/6.jpg" /><!-- --><img src="/img/7.jpg" /><!-- --><img src="/img/8.jpg" /><!-- --><img src="/img/9.jpg" /><!-- --><img src="/img/10.jpg" /><!-- --><img src="/img/11.jpg" /><!-- --><img src="/img/12.jpg" /><!-- --><img src="/img/13.jpg" /><!-- --><img src="/img/14.jpg" /><!-- --><img src="/img/15.jpg" /><!-- --><img src="/img/16.jpg" /><!-- --><img src="/img/17.jpg" /><!-- --><img src="/img/18.jpg" /><!-- --><img src="/img/19.jpg" /><!-- --><img src="/img/20.jpg" /><!-- --><img src="/img/21.jpg" /><!-- --><img src="/img/22.jpg" /><!-- --><img src="/img/23.jpg" /><!-- --></p>
+</div>
