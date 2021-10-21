@@ -61,8 +61,10 @@ params:
         url: '#'
       - name: Background
         url: post/me
-      - name: Blogs
-        url: post/blogs
+      - name: Portfolio
+        url: blogs
+      - name: Resume
+        url: blogs/CV        
     menu: Menu
     subtitle: By HTML5 Up
     title: Refresh
