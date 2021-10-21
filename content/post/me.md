@@ -8,7 +8,7 @@ draft: false
 image: frmclass.jpg 
 
 keywords: ""
-slug: post/me
+slug: me
 title: John Purcell
 ---
 
