@@ -20,7 +20,7 @@ params:
     buttonClear: Clear
     buttonSend: Send message
     email:
-      - email: johndpurcell64@gmail.com
+      - email: https://formspree.io/f/xzbyqvkn
         title: Email
     enable: yes
     phone:
