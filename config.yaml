@@ -61,8 +61,10 @@ params:
         url: '#'
       - name: Background
         url: post/me
-      - name: Portfolio
-        url: blogs
+      - name: Python
+        url: blogs/Options
+      - name: Julia
+        url: blogs/Julia
       - name: Resume
         url: blogs/CV
     menu: Menu
