@@ -15,10 +15,17 @@ title: John Purcell
 <script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
 
-<p>Below is a detailed overview of how to create a stacked ensemble from a class of supervised learning models, with the Julia code attached.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:image-ref-for-in-text"></span>
-<img src="FIN30290_Group3__Report_Final.pdf" alt="Some cool caption" width="0.75\linewidth" />
-<p class="caption">
-Figure 1: Some cool caption
-</p>
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>Below is a detailed overview of how to create a stacked ensemble using a group of validated supervised learning models, with some Julia code attached. We trained a deep neural network model (Flux package) to classify directional movements in stock prices on the predictions of LDA, SVM, LASSO, Logistic Regressison, and Gradient Boosting (XGBoost package) models. We used k-fold cross validation on the individual models (5 folds for each). We then used these predictions to compare their compatibility with three trading strategies in order to optimise the use of our model going forward, dependent on the distribution of the prediction errors relative to the actual movement in asset prices.</p>
+</div>
+<div id="conclusions" class="section level1">
+<h1>Conclusions</h1>
+<p>The buy and hold strategy returned annualised returns of approximately 24% over our testing period, this compares to 35% for our long-short strategy and 20% for our proportional trading strategy. If we look at the return profiles above it is clear that the proportional investing strategy provides the least volatile returns and as a result it may be more pertinent to use risk-adjusted measures to evaluate our strategies</p>
+<p>The buy and hold strategy underperforms against our strategies on an annualized Sharpe ratio basis, recording a Sharpe of c. 1.15, compared to c. 1.71 and c. 1.92 for our long-short and proportional trading strategies, respectively. Although our proportional strategy provided us with the lowest cumulative returns it is the best on a risk-adjusted basis.</p>
+<p>As a result of this analysis, we recommend that if an investor seeks to maximize cumulative returns, they should follow our long-short strategy but if they want to achieve the highest riskadjusted returns they would be best suited following our proportional investing strategy.</p>
+</div>
+<div id="the-project" class="section level1">
+<h1>The Project</h1>
+<p><img src="/img/0001.jpg" /><!-- --><img src="/img/0002.jpg" /><!-- --><img src="/img/0003.jpg" /><!-- --><img src="/img/0004.jpg" /><!-- --><img src="/img/0005.jpg" /><!-- --><img src="/img/0006.jpg" /><!-- --><img src="/img/0007.jpg" /><!-- --><img src="/img/0008.jpg" /><!-- --><img src="/img/0009.jpg" /><!-- --><img src="/img/0010.jpg" /><!-- --><img src="/img/0011.jpg" /><!-- --><img src="/img/0012.jpg" /><!-- --><img src="/img/0013.jpg" /><!-- --><img src="/img/0014.jpg" /><!-- --><img src="/img/0022.jpg" /><!-- --><img src="/img/0023.jpg" /><!-- --><img src="/img/0028.jpg" /><!-- --><img src="/img/0029.jpg" /><!-- --><img src="/img/0034.jpg" /><!-- --><img src="/img/0035.jpg" /><!-- --><img src="/img/0040.jpg" /><!-- --><img src="/img/0041.jpg" /><!-- --><img src="/img/0042.jpg" /><!-- --><img src="/img/0050.jpg" /><!-- --><img src="/img/0051.jpg" /><!-- --><img src="/img/0054.jpg" /><!-- --><img src="/img/0055.jpg" /><!-- --><img src="/img/0056.jpg" /><!-- --><img src="/img/0057.jpg" /><!-- --></p>
 </div>
