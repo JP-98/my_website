@@ -14,7 +14,7 @@ title: John Purcell
 
 Dia dhaoibh! 
 
-John Purcell is ainm dom. Is as an Éire dom (dar ndóigh!), ach táim i mo chónaí sa tír gan anan: an Sasana, leis na chótaí dearga! Ceapaim nach bhfuil clú dá laghad agat cad atá a rá agam; mar sin, leanfaidh mé le mo scéal i mBéarla.
+John Purcell is ainm dom. Is as an Éire dom (dar ndóigh!), ach táim i mo chónaí sa tír gan anam: an Sasana, leis na chótaí dearga! Ceapaim nach bhfuil clú dá laghad agat cad atá a rá agam; mar sin, leanfaidh mé le mo scéal i mBéarla.
 
 I hope you enjoyed some of my native tongue, but I would prefer to hear your intuitive guess at the pronunciation. Anyways, my name is John Purcell, and I hail from the land of Saints and Scholars: Ireland. 
 
