@@ -1,3 +1,17 @@
+---
+categories:  
+- ""    
+- ""
+date: "2021-10-21"
+description: Background # the title that will show up once someone gets to this page
+draft: false
+image: chkn.jpg # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
+
+keywords: ""
+slug: post/me # slug is the shorthand URL address... no spaces plz
+title: John Purcell
+---
+
 Dia dhaoibh! 
 
 John Purcell is ainm dom. Is as an Éire dom (dar ndóigh!), ach táim i mo chónaí sa tír gan anan: an Sasana, leis na chótaí dearga! Ceapaim nach bhfuil clú dá laghad agat cad atá a rá agam; mar sin, leanfaidh mé le mo scéal i mBéarla.
