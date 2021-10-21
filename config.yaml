@@ -20,7 +20,7 @@ params:
     buttonClear: Clear
     buttonSend: Send message
     email:
-      - email: jpurcell.mfa2022@london.edu
+      - email: johndpurcell64@gmail.com
         title: Email
     enable: yes
     phone:
@@ -101,6 +101,6 @@ params:
   two:
     buttonText: Get Started
     enable: yes
-    subtitle: "*** Faigheann cos ar siúl rud nach bhfaigheann cos ina cónaí ***"
+    subtitle: "Faigheann cos ar siúl rud nach bhfaigheann cos ina cónaí"
     title: Dive In
     url: '#'
