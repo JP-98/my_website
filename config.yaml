@@ -8,8 +8,8 @@ params:
   banner:
     buttonText: Get Started
     subtitle: #-
-      Part time Farmer,
-      Full time Charmer
+      Part time farmer,
+      full time charmer
     title: John Purcell
   blog: {}
   contact:
@@ -37,7 +37,7 @@ params:
     copyright: John Purcell
     enable: yes
     quicklinks:
-      - alt: '#'
+      - alt: HTML5 UP
         text: 'Design: '
         url: https://www.html5up.net
     social:
@@ -50,7 +50,7 @@ params:
       - icon: fa-linkedin
         label: LinkedIn
         url: https://www.linkedin.com/in/john-purcell-6b611216b/
-  image: frm.jpg
+  image: ''
   name: John Purcell
   navigation:
     button1:
