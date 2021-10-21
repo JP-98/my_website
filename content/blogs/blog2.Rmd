@@ -1,0 +1,29 @@
+---
+categories:  
+- ""    
+- ""
+date: "2021-10-21"
+description: Background 
+draft: false
+image: frmclass.jpg 
+
+keywords: ""
+slug: Travel
+title: John Purcell
+---
+
+I also love to travel, over 25 countries have been unlucky enough to host me at one time or another. Below is a collection of some of the photos which give better indication as to how the holidays went than I could in words.
+
+```{r,echo=FALSE}
+knitr::include_graphics("/img/travel1.jpg",error =FALSE)
+knitr::include_graphics("/img/travel2.jpg",error =FALSE)
+knitr::include_graphics("/img/travel.jpg",error =FALSE)
+knitr::include_graphics("/img/travel3.jpg",error =FALSE)
+knitr::include_graphics("/img/travel4.jpg",error =FALSE)
+knitr::include_graphics("/img/travel5.jpg",error =FALSE)
+knitr::include_graphics("/img/travel6.jpg",error =FALSE)
+knitr::include_graphics("/img/travel7.jpg",error =FALSE)
+knitr::include_graphics("/img/travel8.jpg",error =FALSE)
+knitr::include_graphics("/img/travel9.jpg",error =FALSE)
+knitr::include_graphics("/img/travel10.jpg",error =FALSE)
+```

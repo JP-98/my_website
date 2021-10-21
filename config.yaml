@@ -80,7 +80,7 @@ params:
       - image: italy.jpg
         subtitle: Todo el Mundo
         title: Travel
-        url: post/me
+        url: blogs/Travel
       - image: flux.jpg
         subtitle: Using Julia's Flux Package to Train a Neural Network Model
         title: Training a Stacked Ensemble of Supervised Models to Predict Stock Return Directions
