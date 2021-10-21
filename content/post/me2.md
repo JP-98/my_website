@@ -5,7 +5,7 @@ categories:
 date: "2021-10-21"
 description: Background # the title that will show up once someone gets to this page
 draft: false
-image: chkn.jpg # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
+image: frmclass.jpg # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
 
 keywords: ""
 slug: post/me # slug is the shorthand URL address... no spaces plz
@@ -18,11 +18,7 @@ John Purcell is ainm dom. Is as an Éire dom (dar ndóigh!), ach táim i mo chó
 
 I hope you enjoyed some of my native tongue, but I would prefer to hear your intuitive guess at the pronunciation. Anyways, my name is John Purcell, and I hail from the land of Saints and Scholars: Ireland. 
 
-I grew up on a farm in rural Ireland, with space for miles around and only sounds of wind caressing the long grass in summer and the waning trees in winter. Feel free to enjoy the aesthetics of my childhood stomping ground below.
-
-```{r}
-knitr::include_graphics("/img/frmclass.jpg",error =FALSE)
-```
+I grew up on a farm in rural Ireland, with space for miles around and only sounds of wind caressing the long grass in summer and the waning trees in winter. Feel free to enjoy the aesthetics of my childhood stomping ground above.
 
 Though I love where I'm from, my other passions have brought me elsewhere, and have clearly have brought you to me also! I enjoy travelling, playing music, and most importantly, debt. My professional interests encompass debt capital markets, private credit, securitised debt investing, multi-asset investing, and portfolio optimisation.
 
