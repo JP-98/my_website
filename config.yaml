@@ -61,7 +61,7 @@ params:
         url: '#'
       - name: Background
         url: post/me
-      - name: blogs
+      - name: Blogs
         url: post/blogs
     menu: Menu
     subtitle: By HTML5 Up

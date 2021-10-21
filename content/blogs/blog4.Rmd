@@ -26,7 +26,7 @@ We calculated the value of the change in our money market account and share posi
 We incorporated estimations of transaction costs on both buying and selling the options as well as on our daily Delta hedge rebalancing in order to make our results more accurate as a real-
 world trading strategy. We estimated transaction costs using formulae provided in the PIMCO paper. Our transaction costs on buying or selling a single option is represented by:
 
-$Option\ Transaction\ Cost = (\frac{1}{2})∗ν ∗ OptionTC_t ∗ max (0.5,\frac{\sigma_t^{implied}}{\sigma_{median}^{implied}})$
+$$Option\ Transaction\ Cost = (\frac{1}{2})∗ν ∗ OptionTC_t ∗ max (0.5,\frac{\sigma_t^{implied}}{\sigma_{median}^{implied}})$$
 
 The first three terms above are said to approximate the bid-mid spread of the straddle in dollar
 terms. The last term captures the effect of increasing transactions costs during periods of high
@@ -35,7 +35,7 @@ assumed to be higher for Colgate options than for the S&P500 given that they are
 
 Our Delta hedge rebalancing transaction costs were calculated using the formula below: 
 
-$Delta\ Transaction\ Costs = |Delta_t − Delta_{t−1}| ∗ Fwd_t ∗ DeltaTC_t* max (0.5,\frac{\sigma_t^{implied}}{\sigma_{median}^{implied}})$
+$$Delta\ Transaction\ Costs = |Delta_t − Delta_{t−1}| ∗ Fwd_t ∗ DeltaTC_t* max (0.5,\frac{\sigma_t^{implied}}{\sigma_{median}^{implied}})$$
 
 whereby:
 
