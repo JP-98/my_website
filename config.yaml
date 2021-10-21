@@ -21,7 +21,7 @@ params:
     buttonSend: Send message
     email:
       - email: jpurcell.mfa2022@london.edu
-        title: JP
+        title: Email
     enable: yes
     phone:
       - phone: (+353) 87-151-2513 x1234
