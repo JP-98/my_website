@@ -1,0 +1,19 @@
+---
+categories:  
+- ""    
+- ""
+date: "2021-10-21"
+description: Background 
+draft: false
+image: flux.jpg.jpg 
+
+keywords: ""
+slug: Julia
+title: John Purcell
+---
+
+Below is a detailed overview of how to create a stacked ensemble from a class of supervised learning models, with the Julia code attached.
+
+```{r image-ref-for-in-text, echo = FALSE, message=FALSE, fig.align='center', fig.cap='Some cool caption', out.width='0.75\\linewidth', fig.pos='H'}
+knitr::include_graphics("FIN30290_Group3__Report_Final.pdf")
+```

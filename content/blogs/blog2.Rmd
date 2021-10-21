@@ -12,7 +12,7 @@ slug: Travel
 title: John Purcell
 ---
 
-I also love to travel, over 25 countries have been unlucky enough to host me at one time or another. Below is a collection of some of the photos which give better indication as to how the holidays went than I could in words.
+I also love to travel. Over 25 countries have been unlucky enough to host me at one time or another. Below is a collection of some of the photos which give better indication as to how the holidays went than I could in words.
 
 ```{r,echo=FALSE}
 knitr::include_graphics("/img/travel1.jpg",error =FALSE)
