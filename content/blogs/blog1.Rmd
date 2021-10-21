@@ -6,11 +6,11 @@ date: "2021-10-21"
 description: Background 
 draft: false
 image: frmclass.jpg 
-
 keywords: ""
 slug: Ireland
 title: John Purcell
 ---
+
 
 Those of you who haven't had the fortune of gracing the island of Ireland with your presence, I present below the best two dimensional representation of Ireland that I have to offer. Enjoy!
 
