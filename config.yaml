@@ -8,8 +8,8 @@ params:
   banner:
     buttonText: Get Started
     subtitle: #-
-      Part time farmer,
-      full time charmer
+      Part time farmer
+      
     title: John Purcell
   blog: {}
   contact:
@@ -71,7 +71,7 @@ params:
     enable: yes
     showcase:
       - image: fish.jpg
-        subtitle: Immature, Arrogant, but Undoubtedly Brilliant
+        subtitle: Bio
         title: Introduction
         url: post/me
       - image: frmclass.jpg
@@ -87,8 +87,8 @@ params:
         title: Training a Stacked Ensemble of Supervised Models to Predict Stock Return Directions
         url: blogs/Julia
       - image: work.jpeg
-        subtitle: Better than Shorting the Vix
-        title: Exploiting Implied Volatility Deviations from Realised using Options  
+        subtitle: Short ATM Straddle Strategy
+        title: Shorting Implied Volatility using Options 
         url: blogs/Options
       - image: ff.jpg
         subtitle: 
